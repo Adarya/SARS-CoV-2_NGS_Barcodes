@@ -2,6 +2,6 @@
 
 Supplementary and supporting data for the paper titled <b>"High throughput SARS-CoV-2 variant analysis using molecular barcodes coupled with Next Generation Sequencing"</b>
 
-by Lyora A. Cohen-Aharonov, Annie Rebibo-Sabbah, Adar Yaacov, Roy Z. Granit, Merav Strauss, Raul Colodner, Ori Cheshin, Shai Rosenberg, and Ronen Eavri
+Lyora A. Cohen-Aharonov, Annie Rebibo-Sabbah, Adar Yaacov, Roy Z. Granit, Merav Strauss, Raul Colodner, Ori Cheshin, Shai Rosenberg, and Ronen Eavri
 
 doi: https://doi.org/10.1101/2021.05.27.21257726
