@@ -3,7 +3,7 @@ library(stringr)
 library(vcfR)
 
 #bcftools outputs are as .vcf files
-path <- "C:/Users/Yoga920/OneDrive - mail.huji.ac.il/Barcode/28_01_2021/vcf/"
+path <- "C:/Users/AdarY/OneDrive - mail.huji.ac.il/SARS-CoV-2/960/vcf/"
 vcf_files <- list.files(path, pattern = paste0("*.vcf$"))
                   
 vcf_reader <- function(path, vcf_files){
