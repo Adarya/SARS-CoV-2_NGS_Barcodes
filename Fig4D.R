@@ -26,9 +26,9 @@ vcf_df <- vcf_df[vcf_df$DP >= 50, ]
 write.csv(vcf_df, "data/unannotated_filtered_calls.csv")
 
 #un-annotated data were annotated and curated manually for consequence and sample ID SARS-CoV-2 status 
-mut_analysis <- read.csv("data/bcftools_variants_annotated.csv",header = T)
+mut_analysis <- read.csv("data/bcftools_variants_annotated.csv",header = T)[1:88,]
 
-p <- ggplot(mut_analysis[mut_analysis$CONSEQU != "Artefact",], (aes(x=as.factor(POS), y=stat(count), col = STATUS, 
+p <- ggplot(mut_analysis[mut_analysis$CONSEQU != "none",], (aes(x=as.factor(POS), y=stat(count), col = STATUS, 
                           shape = CONSEQU)))+
   stat_count(geom = "point", size = 5)+
   theme_bw()+
